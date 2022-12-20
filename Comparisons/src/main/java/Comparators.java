@@ -24,7 +24,7 @@ public class Comparators {
      * @return true if a is greater than b, false otherwise.
      */
     public boolean greaterThan(int a, int b){
-        return false;
+        return (a > b);
     }
     /**
      * @param a the first number to be compared.
