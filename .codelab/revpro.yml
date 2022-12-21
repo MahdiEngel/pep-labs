@@ -1,7 +1,7 @@
 ---
 :lab_name: pep-labs
 :repo_path: "/workspace/revpro-cli/pep-labs"
-:previous_lab: 
+:previous_lab: BooleanOperators
 :current_lab: BooleanOperators
 :origin_remote: https://github.com/MahdiEngel/pep-labs
 :repo_clone_folder: "/workspace/revpro-cli/pep-labs"
@@ -42,10 +42,10 @@
   :count_labs_total: 96
   :count_labs_passed: 0
   :count_tests_total: 361
-  :count_tests_passed: 6
+  :count_tests_passed: 0
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 6
+  :count_tests_passed: 0
   Start:
     :Week: 1
     :Order: 1
@@ -118,7 +118,7 @@
     :Order: 7
     :Type: lab
     :count_tests: 12
-    :count_tests_passed: 6
+    :count_tests_passed: 0
     :tests:
       returnBooleanTest1: 0
       returnBooleanTest2: 1
@@ -132,6 +132,7 @@
       returnOrTest2: 0
       returnOrTest3: 0
       returnOrTest4: 1
+      ExpressionsTest: 0
   Add:
     :Week: 1
     :Order: 8

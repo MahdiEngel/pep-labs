@@ -14,10 +14,7 @@ public class Expressions {
      * @return if b is true, return true. if b is false, return false.
      */
     public boolean returnBoolean(boolean b){
-        if (b == false);
-        else if (b ==true);
-        return false;
-    }
+       
 
     /**
      * @param b a true/false value.
