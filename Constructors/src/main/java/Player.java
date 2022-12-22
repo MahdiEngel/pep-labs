@@ -31,8 +31,9 @@ public class Player {
      * @param playerName the name of the player to be created.
      */
     public Player(String playerName){
-       playerName newPlayer = new playerName("Frodo");
-          System.out.print(playerName);
+      this.playerName = playerName;
+      return;
+
        
     }
 
@@ -50,8 +51,8 @@ public class Player {
      * @param level the starting level of the player to be created.
      */
     public Player(String playerName, int level){
-        playerName this.playerName = new playerName("Sam", 3);
-      // return playerName;
+      
+      
 
     }
 
