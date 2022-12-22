@@ -14,7 +14,7 @@
  *      Player newPlayer = new Player("Mario", 35);
  **/
 public class Player {
-    public String playerName;
+    public playerName playerName;
     public int level;
 
     /**
@@ -31,8 +31,8 @@ public class Player {
      * @param playerName the name of the player to be created.
      */
     public Player(String playerName){
-      this.playerName = playerName;
-      return (String);
+      //  this.playerName = new playerName(playerName);
+      
 
        
     }
