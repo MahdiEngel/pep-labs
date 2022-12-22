@@ -31,7 +31,8 @@ public class Player {
      * @param playerName the name of the player to be created.
      */
     public Player(String playerName){
-       // this.playerName playerName = new ("Frodo");
+       playerName newPlayer = new playerName("Frodo");
+          System.out.print(playerName);
        
     }
 
