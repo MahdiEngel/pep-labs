@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 
 /**
  * An array is a group of some predefined number of elements.
@@ -15,7 +16,12 @@ public class ArrayBasics {
      * @return the length of arr.
      */
     public int getLengthOfArray(int[] arr){
-        return 0;
+        int[] input = {0,1,2,3,4};
+        if (arr == 5){
+            return (int[]);
+
+        }
+        
     }
 
 
