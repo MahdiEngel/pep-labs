@@ -39,9 +39,9 @@ public class ArrayBasics {
      * @return nothing. Because of pass-by-reference, any change to the array will be reflected across our java program.
      */
     public void setNthElementOfArray(int[] arr, int n, int val){
-       // int[] arr = {1, 2, 3, 4, 5};
            // arr = new int[n];
           // val = arr [n];
+          arr = new int[n];
 
     }
 
