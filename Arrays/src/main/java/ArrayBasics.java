@@ -20,8 +20,6 @@ public class ArrayBasics {
 
     }
 
-
-
     /**
      * @param arr the array we're getting data from.
      * @param n the index (number) of the element we're looking to return.
@@ -42,6 +40,8 @@ public class ArrayBasics {
      */
     public void setNthElementOfArray(int[] arr, int n, int val){
        // int[] arr = {1, 2, 3, 4, 5};
+           // arr = new int[n];
+          // val = arr [n];
 
     }
 
@@ -50,6 +50,6 @@ public class ArrayBasics {
      * @return a new int array that can contain n elements.
      */
     public int[] returnNewArraySizeN(int n){
-        return (arr[]);
+        return new int[n];
     }
 }
