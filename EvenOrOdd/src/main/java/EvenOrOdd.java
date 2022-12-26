@@ -17,15 +17,15 @@ public class EvenOrOdd {
         if (n % 2 == 0) {
  
             // If remainder is zero then this number is even
-            System.out.println("Even");
+            return "Even";
         }
  
         else {
  
             // If remainder is not zero then this number is
             // odd
-            System.out.println("Odd");
+            return "Odd";
         }
-        return "n";
+   //     return (n + "Odd");
     }
 }
