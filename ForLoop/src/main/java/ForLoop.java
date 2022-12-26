@@ -40,10 +40,11 @@ public class ForLoop {
      *      @return the sum of all numbers between start and end, with start inclusive and end exclusive.
      */
     public String returnNumbers(int start, int end){
-        String buildingString = "";
+        String buildingString = buildingString + i + " ";
 
-//        code here
+          for (int i = start; i < end; i++){
 
         return buildingString;
+     }
     }
 }
