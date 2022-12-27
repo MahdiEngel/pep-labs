@@ -26,6 +26,8 @@ public class SetAllArrayElements {
         for(int i = 0; i < arr.length; i++){
           //  arr[n] = arr[i] + n;
 
+          // https://www.geeksforgeeks.org/java-program-to-increment-all-element-of-an-array-by-one/
+
 
         }
 
