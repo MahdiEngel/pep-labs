@@ -32,8 +32,6 @@ public class ReturnArrayContents {
         String str = " ";
 
         for(int i = 0; i < nums.length; i++){
-            //str.append(nums[i]);
-            
            str = str + nums[i] + " ";
            //str = (nums[i] + " ");
 
