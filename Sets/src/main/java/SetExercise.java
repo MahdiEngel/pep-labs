@@ -41,7 +41,7 @@ public class SetExercise {
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public void addUniqueItem(Set<Integer> set, int item){
-    	set.add(1);
+    	set.add(item);
     }
 
     /**
@@ -51,7 +51,7 @@ public class SetExercise {
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public void removeItem(Set<Integer> set, int item){
-    	set.remove(set);
+    	set.remove(item);
 
     }
 }
