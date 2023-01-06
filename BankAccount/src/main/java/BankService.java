@@ -17,12 +17,15 @@ public class BankService {
      */
     public BankService(){
         this.balance = 0;
+        
     }
     /**
      * TODO: implement functionality to increase the user's balance by amount.
      * @param amount the amount to be deposited.
      */
     public void deposit(double amount){
+    	balance = balance + amount;
+  
 
     }
 
@@ -32,7 +35,13 @@ public class BankService {
      * @param amount the amount to be withdrawn.
      */
     public void withdraw(double amount){
-
+    	 
+        if(balance >= amount)  
+        {  
+            //remove the withdrawl amount from the total balance  
+            balance = balance - amount;  
+      
+    }
     }
 
     /**
@@ -40,6 +49,6 @@ public class BankService {
      * @return the user's balance.
      */
     public double getBalance(){
-        return 0;
+        return balance;
     }
 }
