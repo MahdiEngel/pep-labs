@@ -7,7 +7,16 @@ public class ArraySum {
      * @return the sum of all values in arr.
      */
     public int sum(int[] arr){
+    	int sum = 0;
+    	for(int value : arr) {
+    		sum += value;
+    	}
 
-        return 0;
+        return sum;
     }
 }
+
+/* In order to find the sum of all elements in an array, we can simply iterate the array and add each 
+ *  element to a sum accumulating variable.
+ * This very simply starts with a sum of 0 and add each item in the array as we go:
+ */
