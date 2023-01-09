@@ -1,4 +1,4 @@
- CREATE TABLE song NOT NULL(
+ CREATE TABLE song(
     title varchar(100) UNIQUE,
-    artist varchar(100) NOT NULL,
+    artist varchar(100) NOT NULL
  );
