@@ -33,7 +33,7 @@ public class JavalinSingleton {
           //utilize jackson convert back the user object to a json string
             String getArtist = om.writeValueAsString(song);
           //return the json string in the response body
-           ctx.result(getArtist);
+          ctx.result(song.getArtistName());
         });
 
         /**
