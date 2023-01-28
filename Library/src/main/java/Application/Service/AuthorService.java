@@ -49,9 +49,12 @@ public class AuthorService {
      * @return The persisted author if the persistence is successful.
      */
     public Author addAuthor(Author author) {
-        this.addAuthor(author);
+        if(authorDAO.insertAuthor(author.getName());
+       // this.addAuthor(author);
         return author;
     }
 }
-
+/*if(bookDAO.getBookByIsbn(book.getIsbn()) != null) return null;
+        
+             return bookDAO.insertBook(book); */
 
