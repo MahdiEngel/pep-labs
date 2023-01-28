@@ -53,8 +53,9 @@ public class AuthorService {
        // this.addAuthor(author);
        // return author;
        if (authorDAO.insertAuthor(author) != null) {
-        return authorDAO.insertAuthor(author);
        }
-        return author;
+        return authorDAO.insertAuthor(author);
     }
+        //return author;
 }
+
