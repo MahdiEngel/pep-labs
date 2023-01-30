@@ -61,4 +61,6 @@ public class SampleClass {
             SampleClass other = (SampleClass) o;
             return this.a == other.a && this.b == other.b;
         }
+       // return "SampleClass [a=" + a + ", b=" + b + "]";
+    
 }
