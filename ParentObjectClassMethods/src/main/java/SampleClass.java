@@ -56,15 +56,15 @@ public class SampleClass {
     public boolean b;
 
     public boolean equals(Object o) {
-        if();
+       // if(this);
 
     //    implement a custom .equals(SampleClass other){} method here.
 
 
     public String toString() {
         return "SampleClass{" +
-                "a=" + a +
-                ", b=" + b +
+                " a = " + a + 
+                ", b = " + b + 
                 '}';
     }
 }
