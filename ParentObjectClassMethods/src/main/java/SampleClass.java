@@ -55,10 +55,16 @@ public class SampleClass {
     public int a;
     public boolean b;
 
+    public boolean equals(Object o) {
+        if();
+
     //    implement a custom .equals(SampleClass other){} method here.
 
 
-    //    implement a custom .toString(){} method here.
-
-    
+    public String toString() {
+        return "SampleClass{" +
+                "a=" + a +
+                ", b=" + b +
+                '}';
+    }
 }
