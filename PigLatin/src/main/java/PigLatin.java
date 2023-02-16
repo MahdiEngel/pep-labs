@@ -16,7 +16,22 @@ public class PigLatin {
      * @param in A string.
      * @return the pig latin form of in.
      */
-    public String returnPigLatin(String in){
-        return "";
+    public String returnPigLatin(String in) {
+        String vowels = "aeiouAEIOU";
+        String pigLatin = "";
+        int index = 0;
+        while (index < in.length() && !vowels.contains("" + in.charAt(index))) {
+            index++;
+        }
+        if (index == 0) {
+            pigLatin = in + "way";
+        } else if (index == in.length()) {
+            pigLatin = in + "ay";
+        } else {
+            String start = in.substring(0, index);
+            String end = in.substring(index);
+            pigLatin = end + start + "ay";
+        }
+        return pigLatin;
     }
 }
