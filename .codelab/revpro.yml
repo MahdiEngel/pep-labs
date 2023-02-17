@@ -1,10 +1,10 @@
 ---
 :lab_name: pep-labs
-:repo_path: "/home/gitpod/pep-labs"
+:repo_path: "/workspace/revpro-cli/pep-labs"
 :previous_lab: 
 :current_lab: 
 :origin_remote: https://github.com/MahdiEngel/pep-labs
-:repo_clone_folder: "/home/gitpod/pep-labs"
+:repo_clone_folder: "/workspace/revpro-cli/pep-labs"
 :github_username: MahdiEngel
 :git_name: Mahdi Engel
 :git_email: mahdi.engel@gmail.com
@@ -33,8 +33,8 @@
     checkoutLocation: pep-gitpod-workspace
     upstreamRemoteURI: https://github.com/revature-curriculum/pep-gitpod-workspace.git
   :gitpod_workspace:
-    :workspace_id: mahdiengel-pepgitpodwor-mxmqposp388
-    :workspace_url: https://mahdiengel-pepgitpodwor-mxmqposp388.ws-us87.gitpod.io
+    :workspace_id: mahdiengel-pepgitpodwor-vpgjdkd8rit
+    :workspace_url: https://mahdiengel-pepgitpodwor-vpgjdkd8rit.ws-us87.gitpod.io
     :repo_root: "/workspace/pep-gitpod-workspace"
     :git_user_email: mahdi.engel@gmail.com
     :git_user_name: Mahdi Engel
