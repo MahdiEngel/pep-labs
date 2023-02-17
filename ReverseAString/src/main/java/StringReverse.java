@@ -13,6 +13,9 @@ public class StringReverse {
      * @return the reverse of str.
      */
     public String reverse(String str){
-        return null;
+        if(str.length() == 0){
+            return str;
+        }
+        return reverse(str.substring(1)) + str.charAt(0);
     }
 }
