@@ -12,7 +12,12 @@ public class SubArray {
      * @param end the ending index, exclusive.
      * @return a sub-array of nums containing the values between start and end.
      */
-    public int[] sub(int[] nums, int start, int end){
-        return null;
+    public int[] sub(int[] nums, int start, int end) {
+        int size = end - start;
+        int[] subArray = new int[size];
+        for (int i = 0; i < size; i++) {
+            subArray[i] = nums[start + i];
+        }
+        return subArray;
     }
 }
