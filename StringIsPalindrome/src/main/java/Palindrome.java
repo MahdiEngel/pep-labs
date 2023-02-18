@@ -19,7 +19,7 @@ public class Palindrome {
                 return false;
             }
             left++;
-            //right--;
+            right--;
         }
         return true;
     }
