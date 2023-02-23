@@ -9,7 +9,35 @@ public class LargestSum {
      * @param nums a list of ints.
      * @return the largest possible sum of separate numbers from nums.
      */
-    public int bigSum(List<Integer> nums) {
+    public int bigSum(List<Integer> nums){
+        int largest = Integer.MIN_VALUE;
+        int secondLargest = Integer.MIN_VALUE;
+        boolean foundDuplicate = false;
+        
+        for (int num : nums) {
+            if (num > largest) {
+                secondLargest = largest;
+                largest = num;
+                foundDuplicate = false;
+            } else if (num == largest) {
+                foundDuplicate = true;
+            } else if (num > secondLargest) {
+                secondLargest = num;
+                foundDuplicate = false;
+            } else if (num == secondLargest) {
+                foundDuplicate = true;
+            }
+        }
+        
+        if (foundDuplicate) {
+            return largest * 2;
+        } else {
+            return largest + secondLargest;
+        }
+    }
+}
+
+    /*public int bigSum(List<Integer> nums) {
         if (nums == null || nums.size() == 0) {
             return 0;
         }
@@ -20,4 +48,4 @@ public class LargestSum {
             nums.get(0) + bigSum(nums.subList(2, nums.size())),
             bigSum(nums.subList(1, nums.size())));
     }
-}
+}*/
